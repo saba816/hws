@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+    <div class="features">
+        <h1>{{ title }}</h1>
+        {% filter upper %}
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repellat sed? Molestiae porro magnam ipsum odio temporibus, nihil sit explicabo quam? Beatae doloremque at ratione aperiam magni nam veritatis totam.</p>
+        {% endfilter %}
+        <button class="btn btn-warning">qwerty</button>
+        
+        
+    </div>
+    
+{% endblock %}
